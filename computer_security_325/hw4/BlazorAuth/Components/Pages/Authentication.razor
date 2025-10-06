@@ -1,0 +1,24 @@
+@page "/hello"
+@rendermode InteractiveServer
+
+<PageTitle>Hello</PageTitle>
+
+<h1>Hello</h1>
+<p>Please enter your name:</p>
+<input @bind="nameInput" />
+<button type="button" @onclick="@(() => Authenticate())">Submit</button>
+@if (showMessage)
+{
+    <p>Hello, @nameInput!</p>
+}
+
+
+@code {
+     private bool showMessage = false;
+     private String? nameInput;
+
+     private void Authenticate()
+     {
+          showMessage = !string.IsNullOrWhiteSpace(nameInput);
+     }
+}

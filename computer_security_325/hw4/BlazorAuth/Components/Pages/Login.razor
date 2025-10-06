@@ -1,0 +1,37 @@
+@page "/login"
+@rendermode InteractiveServer
+@inject AuthService AuthService
+@inject NavigationManager Navigation
+@layout EmptyLayout
+
+<PageTitle>Login</PageTitle>
+
+<h1>Login</h1>
+<p>Username:</p>
+<input @bind="username" />
+<p>Password:</p>
+<input type="password" @bind="password" />
+<br />
+<button type="button" @onclick="LoginUser">Login</button>
+@if (showError)
+{
+    <p style="color: red;">Wrong username or password!</p>
+}
+
+@code {
+    private string? username;
+    private string? password;
+    private bool showError = false;
+
+    private async Task LoginUser()
+    {
+        if (await AuthService.LoginAsync(username ?? "", password ?? ""))
+        {
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            showError = true;
+        }
+    }
+}
