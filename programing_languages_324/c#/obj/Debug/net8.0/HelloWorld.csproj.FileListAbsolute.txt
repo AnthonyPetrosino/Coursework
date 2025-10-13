@@ -1,0 +1,14 @@
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/bin/Debug/net8.0/HelloWorld
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/bin/Debug/net8.0/HelloWorld.deps.json
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/bin/Debug/net8.0/HelloWorld.runtimeconfig.json
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/bin/Debug/net8.0/HelloWorld.dll
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/bin/Debug/net8.0/HelloWorld.pdb
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.csproj.CoreCompileInputs.cache
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.dll
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/refint/HelloWorld.dll
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.pdb
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/HelloWorld.genruntimeconfig.cache
+/home/anthony-petrosino/Documents/Coursework/ProgLang/c#/obj/Debug/net8.0/ref/HelloWorld.dll

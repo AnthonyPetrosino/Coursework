@@ -1,0 +1,14 @@
+;; DrRacket Notes
+;; Anthony Petrosino
+
+;; cons, append and list
+(cons 'x '(1 2))
+(cons '(1 5) '(2 3))
+(append '(1) '(2 3))
+(append '(1 5) '(2 3))
+(list '1 '2 '3 '(4 5))
+
+;; map applies a procedure to one or more lists and returns
+;; a new list containing the result
+(map + '(5 4 7) '(4 5 6))
+(map < '(5 4 7) '(4 5 6))
