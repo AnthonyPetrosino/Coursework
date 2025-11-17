@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LjI5ekWX5es=",
+  "dgSpecHash": "aZBxwPHxj5s=",
   "success": true,
-  "projectFilePath": "/home/anthony-petrosino/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/aap/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
+  "expectedPackageFiles": [
+    "/home/aap/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "/home/anthony-petrosino/.nuget/packages/": {}
+    "/home/aap/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/anthony-petrosino/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
+      "projectUniqueName": "/home/aap/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
       "projectName": "BlazorAuth",
-      "projectPath": "/home/anthony-petrosino/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
-      "packagesPath": "/home/anthony-petrosino/.nuget/packages/",
-      "outputPath": "/home/anthony-petrosino/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/obj/",
+      "projectPath": "/home/aap/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/BlazorAuth.csproj",
+      "packagesPath": "/home/aap/.nuget/packages/",
+      "outputPath": "/home/aap/GitHub/Coursework/computer_security_325/hw4/BlazorAuth/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/anthony-petrosino/.nuget/NuGet/NuGet.Config"
+        "/home/aap/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -44,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -60,6 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.9, 9.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -68,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
